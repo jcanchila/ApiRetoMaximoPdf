@@ -16,14 +16,15 @@ namespace RetoMaximo.Pdf.Controllers
             _pdfGenerator = pdfGenerator;
         }
         // POST api/<GenerarPdfController>
-        [HttpPost("GenerarPdf")]
-        public byte[] GenerarPdf([FromBody] Request request)
+        [HttpPost("ConvertirHtml")]
+        public byte[] ConvertirHtml([FromBody] Request request)
         {
             if (string.IsNullOrEmpty(request?.Html))
             {
                 throw new Exception("No hay un archivo html valido");
             }
-            return _pdfGenerator.GenerarPdf(request?.Html);
+            var pdfbytes = _pdfGenerator.GenerarPdf(request?.Html);
+            return pdfbytes;
         }
     }
 }

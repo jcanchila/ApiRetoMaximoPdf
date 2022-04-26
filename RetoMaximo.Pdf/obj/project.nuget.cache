@@ -1,14 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "LkkWjl5SeDrTQaPZfL6s+fTECmQRX+6jlmQOtfPM/h8w+uwsh8vOAZXdMTBal2EcIWuFGKYabDe93gfYS98P3A==",
+  "dgSpecHash": "tij1inn5eG1nl7PTBghPDihTCJd4sv5NjyOOFyGanvGD7dYnCXi/mf4+oe47nNphffzojv/z7TUb3cmOIbLFWQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\ingjo\\source\\repos\\RetoMaximo.Pdf\\RetoMaximo.Pdf\\RetoMaximo.Pdf.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ingjo\\.nuget\\packages\\dinktopdf\\1.0.8\\dinktopdf.1.0.8.nupkg.sha512",
+    "C:\\Users\\ingjo\\.nuget\\packages\\dinktopdfincludesdependencies\\1.0.8\\dinktopdfincludesdependencies.1.0.8.nupkg.sha512",
     "C:\\Users\\ingjo\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\ingjo\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\ingjo\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\ingjo\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\ingjo\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.11.1\\microsoft.visualstudio.azure.containers.tools.targets.1.11.1.nupkg.sha512",
     "C:\\Users\\ingjo\\.nuget\\packages\\microsoft.win32.primitives\\4.0.1\\microsoft.win32.primitives.4.0.1.nupkg.sha512",
     "C:\\Users\\ingjo\\.nuget\\packages\\netstandard.library\\1.6.0\\netstandard.library.1.6.0.nupkg.sha512",
     "C:\\Users\\ingjo\\.nuget\\packages\\runtime.native.system\\4.0.0\\runtime.native.system.4.0.0.nupkg.sha512",
