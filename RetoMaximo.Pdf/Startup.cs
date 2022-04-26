@@ -28,7 +28,7 @@ namespace RetoMaximo.Pdf
             services.AddControllers();
 
             string rootPath = Env.ContentRootPath;
-            var wkHtmlToPdfPath = Path.Combine(rootPath,"libs" ,"libwkhtmltox.dll");
+            var wkHtmlToPdfPath = Path.Combine(rootPath,"libs" ,"libwkhtmltox");
             CustomAssemblyLoadContext context = new CustomAssemblyLoadContext();
             context.LoadUnmanagedLibrary(wkHtmlToPdfPath);
 
