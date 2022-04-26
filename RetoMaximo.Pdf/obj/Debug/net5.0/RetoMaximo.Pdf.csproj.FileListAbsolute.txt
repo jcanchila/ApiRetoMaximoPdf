@@ -27,7 +27,4 @@ C:\Users\ingjo\source\repos\RetoMaximo.Pdf\RetoMaximo.Pdf\obj\Debug\net5.0\RetoM
 C:\Users\ingjo\source\repos\RetoMaximo.Pdf\RetoMaximo.Pdf\obj\Debug\net5.0\ref\RetoMaximo.Pdf.dll
 C:\Users\ingjo\source\repos\RetoMaximo.Pdf\RetoMaximo.Pdf\obj\Debug\net5.0\RetoMaximo.Pdf.pdb
 C:\Users\ingjo\source\repos\RetoMaximo.Pdf\RetoMaximo.Pdf\obj\Debug\net5.0\RetoMaximo.Pdf.genruntimeconfig.cache
-C:\Users\ingjo\source\repos\RetoMaximo.Pdf\RetoMaximo.Pdf\bin\Debug\net5.0\libs\libwkhtmltox.dll
-C:\Users\ingjo\source\repos\RetoMaximo.Pdf\RetoMaximo.Pdf\bin\Debug\net5.0\libs\libwkhtmltox.dylib
-C:\Users\ingjo\source\repos\RetoMaximo.Pdf\RetoMaximo.Pdf\bin\Debug\net5.0\libs\libwkhtmltox.so
 C:\Users\ingjo\source\repos\RetoMaximo.Pdf\RetoMaximo.Pdf\obj\Debug\net5.0\RetoMaximo.Pdf.csproj.AssemblyReference.cache
