@@ -27,11 +27,6 @@ namespace RetoMaximo.Pdf
 
             services.AddControllers();
 
-            //string rootPath = Env.ContentRootPath;
-            //var wkHtmlToPdfPath = Path.Combine(rootPath,"libs" ,"libwkhtmltox");
-            //CustomAssemblyLoadContext context = new CustomAssemblyLoadContext();
-            //context.LoadUnmanagedLibrary(wkHtmlToPdfPath);
-
             services.AddSingleton(typeof(IConverter), new SynchronizedConverter(new PdfTools()));
             services.AddTransient<IPdfGenerator, PdfGenerator>();
             services.AddSwaggerGen(c =>
