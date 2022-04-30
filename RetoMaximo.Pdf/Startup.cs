@@ -1,12 +1,9 @@
-using DinkToPdf;
-using DinkToPdf.Contracts;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
-using System.IO;
 
 namespace RetoMaximo.Pdf
 {
@@ -27,8 +24,6 @@ namespace RetoMaximo.Pdf
 
             services.AddControllers();
 
-            services.AddSingleton(typeof(IConverter), new SynchronizedConverter(new PdfTools()));
-            services.AddTransient<IPdfGenerator, PdfGenerator>();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "RetoMaximo.Pdf", Version = "v1" });
@@ -40,16 +35,14 @@ namespace RetoMaximo.Pdf
         {
             if (env.IsDevelopment())
             {
-                app.UseDeveloperExceptionPage();                
-            }
+                app.UseDeveloperExceptionPage();
+            }            
 
             app.UseSwagger();
             app.UseSwaggerUI(c => {
                 c.RoutePrefix = string.Empty;
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "RetoMaximo.Pdf v1");
-            });
-
-            app.UseHttpsRedirection();
+            });            
 
             app.UseRouting();
 
